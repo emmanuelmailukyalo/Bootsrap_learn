@@ -14,10 +14,17 @@
 <body>
 
   <div class="jumbotron text-center bg-dark text-white">
-      <h1>survey page</h1>
-      <p><i>fill all the questions</i></p>
+      <h1 id="title">Market research survey</h1>
+      <p id="description"> <i>please take a few minutes to tell us more about you and your preferences</i></p>
       <!-- this is a adjustable title container.it serves as a header -->
   </div>
+      <!-- this is a form  -->
+  <form id="survey-form" action="/action_page.php">
+      <div id="name" class="form-group">
+        <label for="name" >Full Name</label>
+        <input type="name" class="form-control" placeholder="Enter name">
+      </div>
+  </form>
     
 </body>
 </html>
