@@ -18,12 +18,31 @@
       <p id="description"> <i>please take a few minutes to tell us more about you and your preferences</i></p>
       <!-- this is a adjustable title container.it serves as a header -->
   </div>
+
       <!-- this is a form  -->
+<div class="form"> 
   <form id="survey-form" action="/action_page.php">
+    <!-- this is boostrap first field example -->
+    <!-- we use form-group in boostrap to declare form  -->
       <div id="name" class="form-group">
+        <!-- the label command is for stating the title or question it shows above the field for inputing answers  -->
+        <div class="col">
         <label for="name" >Full Name</label>
+        <!-- place holder command shows what to input on the input field  -->
         <input type="name" class="form-control" placeholder="Enter name">
+        </div>
       </div>
+      
+      <!-- this is email field  -->
+      <div id="email" class="form-group">
+        <div class="col">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" placeholder="Enter email">
+        </div>
+      </div>
+
+
+    </div>
   </form>
     
 </body>
